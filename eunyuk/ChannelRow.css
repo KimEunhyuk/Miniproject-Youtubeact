@@ -1,0 +1,53 @@
+.channelRow {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.channelRow__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.channelRow__text > p {
+    color: #606060;
+    font-size: small !important;
+    align-items: center;
+    display: flex;
+}
+
+.channelRow__logo {
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px 60px;
+}
+
+.channelRow__text > h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    border: 4px solid gray;
+    border-radius: 8px;
+    background-color: gray;
+    color: white;
+    font-size: large;
+    font-weight: normal;
+    padding: 0.25rem 0.75rem; /* 상하, 좌우 */
+    cursor: pointer;
+    margin-left: 20rem;
+    margin-right: 8px;
+    width: 100px;
+}
+
+.button:hover,
+.button:active {
+    background-color: red;
+    border: 4px solid red;
+}
+
+.icon {
+    
+}
